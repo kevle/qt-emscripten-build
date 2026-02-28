@@ -1,1 +1,2 @@
 ./vcpkg x-set-installed qtbase[core] --triplet=wasm32-emscripten
+./vcpkg x-set-installed qtbase[core,gui,widgets,sql-sqlite,freetype,gles3,opengl] --triplet=wasm32-emscripten --overlay-ports=ports/
