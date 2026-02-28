@@ -1,0 +1,1 @@
+./vcpkg x-set-installed qtbase[core] --triplet=wasm32-emscripten
